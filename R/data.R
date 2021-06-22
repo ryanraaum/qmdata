@@ -1,0 +1,20 @@
+#' The Palmer Penguins dataset with only complete cases
+#'
+#' Includes measurements for penguin species, island in Palmer Archipelago,
+#' size (flipper length, body mass, bill dimensions), and sex.
+#' This is a subset of palmerpenguins::penguins.
+#'
+#' @format A data frame with 333 rows and 8 variables:
+#' \describe{
+#'   \item{species}{a factor denoting penguin species (Adélie, Chinstrap and Gentoo)}
+#'   \item{island}{a factor denoting island in Palmer Archipelago, Antarctica (Biscoe, Dream or Torgersen)}
+#'   \item{bill_length_mm}{a number denoting bill length (millimeters)}
+#'   \item{bill_depth_mm}{a number denoting bill depth (millimeters)}
+#'   \item{flipper_length_mm}{an integer denoting flipper length (millimeters)}
+#'   \item{body_mass_g}{an integer denoting body mass (grams)}
+#'   \item{sex}{a factor denoting penguin sex (female, male)}
+#'   \item{year}{an integer denoting the study year (2007, 2008, or 2009)}
+#' }
+#' @source See full source information in the palmerpenguins package:
+#' \url{https://cran.r-project.org/web/packages/palmerpenguins/index.html}
+"lilpenguins"
