@@ -1,0 +1,15 @@
+Package: qmdata
+Title: Datasets for Quantitative Methods for Biological Anthropology Course
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Ryan",
+           family = "Raaum",
+           role = c("aut", "cre"),
+           email = "ryan.raaum@gmail.com",
+           comment = c(ORCID = "0000-0003-4723-5475"))
+Description: This package collects published datasets that I use to teach the course "Quantitative Methods for Biological Anthropology" at the CUNY Graduate Center.
+License: CC0
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
