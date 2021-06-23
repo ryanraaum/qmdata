@@ -42,3 +42,26 @@
 #' in Bill Size across Bird Species Provides Evidence for Allen’s Rule. Am Nat 176:188-197.
 #' \url{https://doi.org/10.1086/653666} Raw data deposited in Dryad \url{https://doi.org/10.5061/dryad.1421}
 "birds"
+
+#' Reproduction and growth data for freshwater snails in relation to environment
+#'
+#' These data are from a study evaluating the effects of predation risk on growth and
+#' reproduction in a hermaphroditic freshwater snail.
+#'
+#' @format A data frame (tibble) with 711 rows and 10 variables:
+#' \describe{
+#'   \item{family}{factor: identifier for full-sibling families}
+#'   \item{predator}{factor: P=predator, NP=no predator}
+#'   \item{mate}{factor: M=mate, NM=no mate}
+#'   \item{mass}{number: mass in mg}
+#'   \item{thickness}{number: shell thickness in mm}
+#'   \item{length}{number: shell length in mm}
+#'   \item{age}{number: age in days at time of mass, thickness, and length measurements}
+#'   \item{fr_age}{number: age in days at time of first reproduction}
+#'   \item{fr_mass}{number: mass in mg at time of first reproduction}
+#'   \item{fr_length}{number: length in mm at time of first reproduction}
+#' }
+#' @source Auld, Josh R. 2010. The effects of predation risk on mating system expression
+#' in a freshwater snail. Evolution 64:3476-3494. \url{https://doi.org/10.1111/j.1558-5646.2010.01079.x}
+#' Raw data deposited in Dryad \url{https://doi.org/10.5061/dryad.1690}
+"snails"
