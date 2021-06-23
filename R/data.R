@@ -113,3 +113,22 @@
 #' Am Nat 174:720-733. \url{https://doi.org/10.1086/606023}
 #' Raw data deposited in Dryad \url{https://doi.org/10.5061/dryad.712}
 "lilmammals"
+
+#' Blood pressure and covariates data for twenty hypertensive individuals
+#'
+#' This seems to be a commonly used exemplar dataset.
+#'
+#' @format A data frame (tibble) with 20 rows and 7 variables:
+#' \describe{
+#'   \item{bp}{number: blood pressure in mm Hg}
+#'   \item{age}{number: age in years}
+#'   \item{weight}{number: weight in kg}
+#'   \item{bsa}{number: body surface area in sq m}
+#'   \item{duration}{number: duration of hypertension in years}
+#'   \item{pulse}{number: basal pulse in beats per minute}
+#'   \item{stress}{number: stress index}
+#' }
+#' @source I don't know that this dataset ultimately originates here,
+#' but I found it on the website for STAT 501 at Penn State
+#' \url{https://online.stat.psu.edu/stat501/}
+"bloodpressure"
