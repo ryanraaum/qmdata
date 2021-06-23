@@ -5,7 +5,7 @@
 \alias{lilpenguins}
 \title{The Palmer Penguins dataset with only complete cases}
 \format{
-A data frame with 333 rows and 8 variables:
+A data frame (tibble) with 333 rows and 8 variables:
 \describe{
 \item{species}{a factor denoting penguin species (Adélie, Chinstrap and Gentoo)}
 \item{island}{a factor denoting island in Palmer Archipelago, Antarctica (Biscoe, Dream or Torgersen)}

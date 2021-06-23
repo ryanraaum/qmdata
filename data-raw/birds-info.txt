@@ -1,0 +1,15 @@
+Data from Symonds and Tattersall (2010).
+
+Variables:
+- family
+- genus
+- species
+- mass (g)
+- bill (length in mm)
+- tarsus (length in mm)
+- latitude (midpoint of range in degrees from equator)
+- altitude (midpoint of range in meters)
+- temperature (minimum temperature at midpoint of range in degrees C)
+
+Symonds, Matthew R. E. and Glenn J. Tattersall. 2010. Geographical Variation in Bill Size across 
+	Bird Species Provides Evidence for Allen’s Rule. Am Nat 176:188-197.
