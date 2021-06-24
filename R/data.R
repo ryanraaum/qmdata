@@ -172,3 +172,108 @@
 #' @source Online in many places - seems to be a commonly used exemplar.
 #' Not sure what the original source is.
 "pefr"
+
+#' PanTHERIA contains mammalian life-history, ecology, and geography data
+#'
+#' A compendium of species level life-history, ecology, and geography data
+#' for mammals. This is the table that uses Wilson and Reeder's 3rd edition
+#' of Mammal Species of the World (2005).
+#'
+#' @format A data frame (tibble) with 5,416 rows and 55 variables:
+#' \describe{
+#'   \item{MSW05_Order}{}
+#'   \item{MSW05_Family}{}
+#'   \item{MSW05_Genus}{}
+#'   \item{MSW05_Species}{}
+#'   \item{MSW05_Binomial}{}
+#'   \item{ActivityCycle}{}
+#'   \item{AdultBodyMass_g}{}
+#'   \item{AdultForearmLen_mm}{}
+#'   \item{AdultHeadBodyLen_mm}{}
+#'   \item{AgeatEyeOpening_d}{}
+#'   \item{AgeatFirstBirth_d}{}
+#'   \item{BasalMetRate_mLO2hr}{}
+#'   \item{BasalMetRateMass_g}{}
+#'   \item{DietBreadth}{}
+#'   \item{DispersalAge_d}{}
+#'   \item{GestationLen_d}{}
+#'   \item{HabitatBreadth}{}
+#'   \item{HomeRange_km2}{}
+#'   \item{HomeRange_Indiv_km2}{}
+#'   \item{InterbirthInterval_d}{}
+#'   \item{LitterSize}{}
+#'   \item{LittersPerYear}{}
+#'   \item{MaxLongevity_m}{}
+#'   \item{NeonateBodyMass_g}{}
+#'   \item{NeonateHeadBodyLen_mm}{}
+#'   \item{PopulationDensity_n/km2}{}
+#'   \item{PopulationGrpSize}{}
+#'   \item{SexualMaturityAge_d}{}
+#'   \item{SocialGrpSize}{}
+#'   \item{TeatNumber}{}
+#'   \item{Terrestriality}{}
+#'   \item{TrophicLevel}{}
+#'   \item{WeaningAge_d}{}
+#'   \item{WeaningBodyMass_g}{}
+#'   \item{WeaningHeadBodyLen_mm}{}
+#'   \item{References}{}
+#'   \item{AdultBodyMass_g_EXT}{}
+#'   \item{LittersPerYear_EXT}{}
+#'   \item{NeonateBodyMass_g_EXT}{}
+#'   \item{WeaningBodyMass_g_EXT}{}
+#'   \item{GR_Area_km2}{}
+#'   \item{GR_MaxLat_dd}{}
+#'   \item{GR_MinLat_dd}{}
+#'   \item{GR_MidRangeLat_dd}{}
+#'   \item{GR_MaxLong_dd}{}
+#'   \item{GR_MinLong_dd}{}
+#'   \item{GR_MidRangeLong_dd}{}
+#'   \item{HuPopDen_Min_n/km2}{}
+#'   \item{HuPopDen_Mean_n/km2}{}
+#'   \item{HuPopDen_5p_n/km2}{}
+#'   \item{HuPopDen_Change}{}
+#'   \item{Precip_Mean_mm}{}
+#'   \item{Temp_Mean_01degC}{}
+#'   \item{AET_Mean_mm}{}
+#'   \item{PET_Mean_mm}{}
+#' }
+#' @source Jones, K.E., Bielby, J., Cardillo, M., Fritz, S.A.,
+#' O'Dell, J., Orme, C.D.L., Safi, K., Sechrest, W., Boakes, E.H.,
+#' Carbone, C., Connolly, C., Cutts, M.J., Foster, J.K.,
+#' Grenyer, R., Habib, M., Plaster, C.A., Price, S.A., Rigby, E.A.,
+#' Rist, J., Teacher, A., Bininda-Emonds, O.R.P., Gittleman, J.L.,
+#' Mace, G.M. and Purvis, A. (2009), PanTHERIA: a species-level
+#' database of life history, ecology, and geography of extant
+#' and recently extinct mammals. Ecology, 90: 2648-2648.
+#' \url{https://doi.org/10.1890/08-1494.1}
+#' Raw data deposited in figshare \url{https://doi.org/10.6084/m9.figshare.c.3301274.v1}
+"pantheria"
+
+#' This is a subset of the PanTHERIA dataset
+#'
+#' Body length, mass, age at first birth, and interbirth interval for
+#' all primates, rodents, and artiodactyls in the PanTHERIA compilation
+#' that have no missing data for these variables.
+#'
+#' @format A data frame (tibble) with 157 rows and 8 variables:
+#' \describe{
+#'   \item{order}{string: taxonomic order}
+#'   \item{family}{string: taxonomic family}
+#'   \item{genus}{string: taxonomic genus}
+#'   \item{species}{string: taxonomic species}
+#'   \item{length}{number: head+body length in mm}
+#'   \item{mass}{number: mass in g}
+#'   \item{afb}{number: age at first birth in days}
+#'   \item{interbirth}{number: interbirth interval in days}
+#' }
+#' @source Jones, K.E., Bielby, J., Cardillo, M., Fritz, S.A.,
+#' O'Dell, J., Orme, C.D.L., Safi, K., Sechrest, W., Boakes, E.H.,
+#' Carbone, C., Connolly, C., Cutts, M.J., Foster, J.K.,
+#' Grenyer, R., Habib, M., Plaster, C.A., Price, S.A., Rigby, E.A.,
+#' Rist, J., Teacher, A., Bininda-Emonds, O.R.P., Gittleman, J.L.,
+#' Mace, G.M. and Purvis, A. (2009), PanTHERIA: a species-level
+#' database of life history, ecology, and geography of extant
+#' and recently extinct mammals. Ecology, 90: 2648-2648.
+#' \url{https://doi.org/10.1890/08-1494.1}
+#' Raw data deposited in figshare \url{https://doi.org/10.6084/m9.figshare.c.3301274.v1}
+"lilpantheria"
