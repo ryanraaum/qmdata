@@ -5,7 +5,7 @@
 \alias{primatedata}
 \title{This is a subset of the PanTHERIA dataset}
 \format{
-A data frame (tibble) with 233 rows and 7 variables:
+A data frame with 233 rows and 7 variables:
 \describe{
 \item{family}{string: taxonomic family}
 \item{binomial}{string: taxonomic genus and species names}
