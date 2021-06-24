@@ -308,3 +308,42 @@
 #' }
 #' @source Data simulated by Ryan Raaum.
 "grooming"
+
+#' This is a subset of the PanTHERIA dataset
+#'
+#' All primates from PanTHERIA along with a few variables. I selected
+#' this subset for a phylogenetic regression example along with
+#' \code{\link{primatetree}}.
+#'
+#' @format A data frame (tibble) with 233 rows and 7 variables:
+#' \describe{
+#'   \item{family}{string: taxonomic family}
+#'   \item{binomial}{string: taxonomic genus and species names}
+#'   \item{adultbodymass}{number: mass in g}
+#'   \item{gestationlen}{number: length of gestation in days}
+#'   \item{homerange}{number: home range size in square km}
+#'   \item{maxlongevity}{number: max lifespan in months}
+#'   \item{socialgrpsize}{number: social group size in number of individuals}
+#' }
+#' @seealso \code{\link{primatetree}}
+#' @source Jones, K.E., Bielby, J., Cardillo, M., Fritz, S.A.,
+#' O'Dell, J., Orme, C.D.L., Safi, K., Sechrest, W., Boakes, E.H.,
+#' Carbone, C., Connolly, C., Cutts, M.J., Foster, J.K.,
+#' Grenyer, R., Habib, M., Plaster, C.A., Price, S.A., Rigby, E.A.,
+#' Rist, J., Teacher, A., Bininda-Emonds, O.R.P., Gittleman, J.L.,
+#' Mace, G.M. and Purvis, A. (2009), PanTHERIA: a species-level
+#' database of life history, ecology, and geography of extant
+#' and recently extinct mammals. Ecology, 90: 2648-2648.
+#' \url{https://doi.org/10.1890/08-1494.1}
+#' Raw data deposited in figshare \url{https://doi.org/10.6084/m9.figshare.c.3301274.v1}
+"primatedata"
+
+#' This is the 10k Trees Project consensus primate tree
+#'
+#' This is a tree to be used in a phylogenetic regression along with
+#' \code{\link{primatedata}}.
+#'
+#' @format A tree in the \code{ape} package's 'phylo' object
+#' @seealso \code{\link{primatedata}}
+#' @source \url{https://10ktrees.nunn-lab.org}
+"primatetree"
