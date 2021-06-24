@@ -315,7 +315,7 @@
 #' this subset for a phylogenetic regression example along with
 #' \code{\link{primatetree}}.
 #'
-#' @format A data frame (tibble) with 233 rows and 7 variables:
+#' @format A data frame with 233 rows and 7 variables:
 #' \describe{
 #'   \item{family}{string: taxonomic family}
 #'   \item{binomial}{string: taxonomic genus and species names}
