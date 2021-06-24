@@ -347,3 +347,68 @@
 #' @seealso \code{\link{primatedata}}
 #' @source \url{https://10ktrees.nunn-lab.org}
 "primatetree"
+
+#' Geometric morphometric data on primate mandibles
+#'
+#' This is a subset of a dataset analyzed in a study on the evolution
+#' of the primate mandible. This is a tree to be used in a phylogenetic
+#' PCA along with \code{\link{jawtree}}.
+#'
+#' @format A data frame with 48 rows and 34 variables:
+#' \describe{
+#'   \item{Species_Tree}{string: species name to match name in tree}
+#'   \item{Family}{string: taxonomic family}
+#'   \item{Diet}{string: dietary category, one of FO, FR, G, I, or ON}
+#'   \item{CS}{number: centroid size}
+#'   \item{Ln.CS}{number: log centroid size}
+#'   \item{N.specim}{number: sample size}
+#'   \item{Proc_c1}{number: Procrustes aligned coordinate}
+#'   \item{Proc_c2}{number: Procrustes aligned coordinate}
+#'   \item{Proc_c3}{number: Procrustes aligned coordinate}
+#'   \item{Proc_c4}{number: Procrustes aligned coordinate}
+#'   \item{Proc_c5}{number: Procrustes aligned coordinate}
+#'   \item{Proc_c6}{number: Procrustes aligned coordinate}
+#'   \item{Proc_c7}{number: Procrustes aligned coordinate}
+#'   \item{Proc_c8}{number: Procrustes aligned coordinate}
+#'   \item{Proc_c9}{number: Procrustes aligned coordinate}
+#'   \item{Proc_c10}{number: Procrustes aligned coordinate}
+#'   \item{Proc_c11}{number: Procrustes aligned coordinate}
+#'   \item{Proc_c12}{number: Procrustes aligned coordinate}
+#'   \item{Proc_c13}{number: Procrustes aligned coordinate}
+#'   \item{Proc_c14}{number: Procrustes aligned coordinate}
+#'   \item{Proc_c15}{number: Procrustes aligned coordinate}
+#'   \item{Proc_c16}{number: Procrustes aligned coordinate}
+#'   \item{Proc_c17}{number: Procrustes aligned coordinate}
+#'   \item{Proc_c20}{number: Procrustes aligned coordinate}
+#'   \item{Proc_c21}{number: Procrustes aligned coordinate}
+#'   \item{Proc_c22}{number: Procrustes aligned coordinate}
+#'   \item{Proc_c23}{number: Procrustes aligned coordinate}
+#'   \item{Proc_c26}{number: Procrustes aligned coordinate}
+#'   \item{Proc_c27}{number: Procrustes aligned coordinate}
+#'   \item{Proc_c32}{number: Procrustes aligned coordinate}
+#'   \item{Proc_c33}{number: Procrustes aligned coordinate}
+#'   \item{Proc_c34}{number: Procrustes aligned coordinate}
+#'   \item{Proc_c35}{number: Procrustes aligned coordinate}
+#'   \item{Proc_c36}{number: Procrustes aligned coordinate}
+#' }
+#' @seealso \code{\link{primatetree}}
+#' @source Meloro, C., Cáceres, N.C., Carotenuto, F., Sponchiado, J., Melo, G.L.,
+#' Passaro, F. and Raia, P. (2015), Chewing on the trees: Constraints and
+#' adaptation in the evolution of the primate mandible. Evolution, 69: 1690-1700.
+#' \url{https://doi.org/10.1111/evo.12694}
+#' Raw data deposited in figshare \url{https://doi.org/10.5061/dryad.8jq98}
+"jawshape"
+
+#' A phylogenetic tree of a subset of primates
+#'
+#' This is a tree to be used in a phylogenetic PCA along with
+#' \code{\link{jawshape}}.
+#'
+#' @format A tree in the \code{ape} package's 'phylo' object
+#' @seealso \code{\link{jawshape}}
+#' @source Meloro, C., Cáceres, N.C., Carotenuto, F., Sponchiado, J., Melo, G.L.,
+#' Passaro, F. and Raia, P. (2015), Chewing on the trees: Constraints and
+#' adaptation in the evolution of the primate mandible. Evolution, 69: 1690-1700.
+#' \url{https://doi.org/10.1111/evo.12694}
+#' Raw data deposited in figshare \url{https://doi.org/10.5061/dryad.8jq98}
+"jawtree"
