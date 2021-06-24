@@ -277,3 +277,18 @@
 #' \url{https://doi.org/10.1890/08-1494.1}
 #' Raw data deposited in figshare \url{https://doi.org/10.6084/m9.figshare.c.3301274.v1}
 "lilpantheria"
+
+#' Simulated energy expenditure and travel data
+#'
+#' This data table presents energy expenditure and average daily
+#' path length for males, females, and pregnant females of a
+#' hypothetical primate species.
+#'
+#' @format A data frame (tibble) with 90 rows and 3 variables:
+#' \describe{
+#'   \item{expend}{number: energy expenditure in kilocalories}
+#'   \item{travel}{number: average daily path in meters}
+#'   \item{group}{factor: female, pregnant female, or male}
+#' }
+#' @source Data simulated by Ryan Raaum.
+"energy"
