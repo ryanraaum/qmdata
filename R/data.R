@@ -132,3 +132,25 @@
 #' but I found it on the website for STAT 501 at Penn State
 #' \url{https://online.stat.psu.edu/stat501/}
 "bloodpressure"
+
+#' Tusk length and circumference of African elephants
+#'
+#' These data are from a study evaluating tusk length and circumference
+#' in African elephants before widespread poaching (1966-68) and
+#' after (2005-13).
+#'
+#' @format A data frame (tibble) with 593 rows and 7 variables:
+#' \describe{
+#'   \item{time}{factor: time period, 1966-68 or 2005-13}
+#'   \item{id}{string: elephant identifier}
+#'   \item{sex}{factor: f or m}
+#'   \item{age}{number: age in years}
+#'   \item{height}{number: height at shoulder in cm}
+#'   \item{length}{number: exposed tusk length in cm}
+#'   \item{circumference}{number: tusk circumferance at lip line in cm}
+#' }
+#' @source Chiyo, P.I., Obanda, V. and Korir, D.K. (2015), Illegal tusk
+#' harvest and the decline of tusk size in the African elephant.
+#' Ecol Evol, 5: 5216-5229. \url{https://doi.org/10.1002/ece3.1769}
+#' Raw data deposited in Dryad \url{https://doi.org/10.5061/dryad.h6t7j}
+"tusksize"
