@@ -412,3 +412,16 @@
 #' \url{https://doi.org/10.1111/evo.12694}
 #' Raw data deposited in figshare \url{https://doi.org/10.5061/dryad.8jq98}
 "jawtree"
+
+#' Simulated p-values for multiple testing demonstration
+#'
+#' Simulated dataset of p-values where whether or not the null hypothesis
+#' is true is known.
+#'
+#' @format A data frame (tibble) with 1000 rows and 2 variables:
+#' \describe{
+#'   \item{null}{logical: whether or not the null hypothesis is true}
+#'   \item{p}{number: p-value}
+#' }
+#' @source Data simulated by Ryan Raaum.
+"pvals"
