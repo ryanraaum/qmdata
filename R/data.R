@@ -425,3 +425,51 @@
 #' }
 #' @source Data simulated by Ryan Raaum.
 "pvals"
+
+#' Total energy expenditure across primate species
+#'
+#' Data from "Primate energy expenditure and life history". Used
+#' for a phylogenetic regression exercise.
+#'
+#' The data are modified from what was released by the authors:
+#' - called the admixed Eulemur sp. data Eulemur fulvus
+#' - dropped the captive Lemur catta data
+#' - dropped the "captive" westerners Homo sapiens data
+#' - dropped the second Peromyscus maniculatus data point (which
+#' was not used in primate - nonprimate comparisons in Pontzer et al.)
+#' - added a "group" varible to sort out primates from non-primates
+#'
+#' @format A data frame with 84 rows and 5 variables:
+#' \describe{
+#'   \item{species}{string: taxonomic species}
+#'   \item{order}{string: taxonomic order}
+#'   \item{group}{factor: primate or nonprimate}
+#'   \item{mass}{number: mass in kg}
+#'   \item{TEE}{number: total energy expenditure in kcalories/day}
+#' }
+#' @seealso \code{\link{teetree}}
+#' @source Herman Pontzer, David A. Raichlen, Adam D. Gordon,
+#' Kara K. Schroepfer-Walker, Brian Hare, Matthew C. O’Neill,
+#' Kathleen M. Muldoon, Holly M. Dunsworth, Brian M. Wood,
+#' Karin Isler, Judith Burkart, Mitchell Irwin, Robert W.
+#' Shumaker, Elizabeth V. Lonsdorf, Stephen R. Ross. 2014.
+#' Primate energy expenditure and life history.
+#' Proceedings of the National Academy of Sciences 111:1433-1437
+#' \url{https://doi.org/10.1073/pnas.1316940111}
+"teedata"
+
+#' Phylogenetic tree of primates
+#'
+#' This is a tree to be used in a phylogenetic regression along with
+#' \code{\link{teedata}}.
+#'
+#' The tree from Binida-Emonds et al. 2007 was modified:
+#' - reduced to taxa shared with the Pontzer et al. 2014 data
+#' - Proteles_cristatus was renamed to Proteles_cristata
+#'
+#' @format A tree in the \code{ape} package's 'phylo' object
+#' @seealso \code{\link{teedata}}
+#' @source Bininda-Emonds, O., Cardillo, M., Jones, K. et al.
+#' The delayed rise of present-day mammals. Nature 446, 507–512
+#' (2007).\url{https://doi.org/10.1038/nature05634}
+"teetree"
