@@ -473,3 +473,74 @@
 #' The delayed rise of present-day mammals. Nature 446, 507–512
 #' (2007).\url{https://doi.org/10.1038/nature05634}
 "teetree"
+
+#' *Geospiza fortis* beak depth data
+#'
+#' These data are the basis for the estimation of beak depth heritability
+#' in Grant & Grant 2014 using the parent-offspring regression approach.
+#'
+#' Changes from the data as provided by the Grant's are:
+#' - variable names changed to be more consistent and R-friendly
+#' - the brood identifier in the original is - inexplicably - the average
+#' value of the offspring band numbers. Here they are relabeled with sequential
+#' BXXX labels.
+#'
+#' @format A data frame with 413 rows and 8 variables:
+#' \describe{
+#'   \item{brood_id}{factor: identifier for each brood of offspring}
+#'   \item{species}{string: taxonomic species}
+#'   \item{mid_offspring_bd}{number: average beak depth across all offspring in brood in mm}
+#'   \item{male_id}{factor: identifier for presumed male parent}
+#'   \item{male_bd}{number: beak depth of presumed male parent in mm}
+#'   \item{female_id}{number: identifier for female parent}
+#'   \item{female_bd}{number: beak depth of female parent in mm}
+#'   \item{mid_parent_bd}{number: average of male and female parent beak depths in mm}
+#' }
+#' @source Grant, P., & Grant, B. (2014). 40 Years of Evolution:
+#' Darwin's Finches on Daphne Major Island. Princeton; Oxford:
+#' Princeton University Press. \url{https://doi.org/10.2307/j.ctt5hhncc}
+#' Raw data deposited in Dryad \url{https://doi.org/10.5061/dryad.g6g3h}
+"gfortis"
+
+#' *Geospiza fortis* pedigree data
+#'
+#' This pedigree was derived from the \code{\link{gfortis}} data for the
+#' purposes of providing an example of estimating heritability using the
+#' animal model. **NOTE:** As the \code{\link{gfortis}} data do not have
+#' individual entries for all offspring, but rather brood averages, the
+#' heritability estimate from the animal model will be inflated due to the
+#' loss of residual variance in the brood-averaging.
+#'
+#' @format A data frame with 979 rows and 3 variables:
+#' \describe{
+#'   \item{id}{factor: identifier for offspring}
+#'   \item{male_id}{factor: identifier for male parent}
+#'   \item{female_id}{factor: identifier for female parent}
+#' }
+#' @seealso \code{\link{gfortis}} \code{\link{gfortis_bd}}
+#' @source Grant, P., & Grant, B. (2014). 40 Years of Evolution:
+#' Darwin's Finches on Daphne Major Island. Princeton; Oxford:
+#' Princeton University Press. \url{https://doi.org/10.2307/j.ctt5hhncc}
+#' Raw data deposited in Dryad \url{https://doi.org/10.5061/dryad.g6g3h}
+"gfortis_ped"
+
+#' *Geospiza fortis* beak depth data
+#'
+#' This data table was derived from the \code{\link{gfortis}} data for the
+#' purposes of providing an example of estimating heritability using the
+#' animal model. **NOTE:** As the \code{\link{gfortis}} data do not have
+#' individual entries for all offspring, but rather brood averages, the
+#' heritability estimate from the animal model will be inflated due to the
+#' loss of residual variance in the brood-averaging.
+#'
+#' @format A data frame with 985 rows and 2 variables:
+#' \describe{
+#'   \item{animal}{factor: individual id}
+#'   \item{bd}{number: beak depth in mm}
+#' }
+#' @seealso \code{\link{gfortis}} \code{\link{gfortis_ped}}
+#' @source Grant, P., & Grant, B. (2014). 40 Years of Evolution:
+#' Darwin's Finches on Daphne Major Island. Princeton; Oxford:
+#' Princeton University Press. \url{https://doi.org/10.2307/j.ctt5hhncc}
+#' Raw data deposited in Dryad \url{https://doi.org/10.5061/dryad.g6g3h}
+"gfortis_bd"
