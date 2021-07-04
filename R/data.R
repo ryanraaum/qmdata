@@ -544,3 +544,18 @@
 #' Princeton University Press. \url{https://doi.org/10.2307/j.ctt5hhncc}
 #' Raw data deposited in Dryad \url{https://doi.org/10.5061/dryad.g6g3h}
 "gfortis_bd"
+
+#' Average January temperature for US and European cities
+#'
+#' A somewhat dataset selectively chosen to illustrate Simpson's Paradox.
+#'
+#' @format A data frame (tibble) with 83 rows and 4 variables:
+#' \describe{
+#'   \item{city}{a string with the city name}
+#'   \item{temperature}{a number with the average daily high temperature in January in degrees C}
+#'   \item{latitute}{a number with the city's latitude in degrees}
+#'   \item{region}{a factor - US or Europe}
+#' }
+#' @source I've lost track of the original source - some online almanac
+#' of some sort.
+"citytemps"
