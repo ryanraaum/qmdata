@@ -48,11 +48,12 @@
 #' These data are from a study evaluating the effects of predation risk on growth and
 #' reproduction in a hermaphroditic freshwater snail.
 #'
-#' @format A data frame (tibble) with 711 rows and 10 variables:
+#' @format A data frame (tibble) with 711 rows and 11 variables:
 #' \describe{
 #'   \item{family}{factor: identifier for full-sibling families}
 #'   \item{predator}{factor: P=predator, NP=no predator}
 #'   \item{mate}{factor: M=mate, NM=no mate}
+#'   \item{treatment}{factor: all combinations of mate and predator}
 #'   \item{mass}{number: mass in mg}
 #'   \item{thickness}{number: shell thickness in mm}
 #'   \item{length}{number: shell length in mm}
