@@ -55,7 +55,7 @@ jawshape
 }
 \description{
 This is a subset of a dataset analyzed in a study on the evolution
-of the primate mandible. This is a tree to be used in a phylogenetic
+of the primate mandible. This is a dataset to be used in a phylogenetic
 PCA along with \code{\link{jawtree}}.
 }
 \seealso{

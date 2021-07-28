@@ -21,6 +21,6 @@ of some sort.
 citytemps
 }
 \description{
-A somewhat dataset selectively chosen to illustrate Simpson's Paradox.
+A dataset somewhat selectively chosen to illustrate Simpson's Paradox.
 }
 \keyword{datasets}

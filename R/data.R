@@ -352,7 +352,7 @@
 #' Geometric morphometric data on primate mandibles
 #'
 #' This is a subset of a dataset analyzed in a study on the evolution
-#' of the primate mandible. This is a tree to be used in a phylogenetic
+#' of the primate mandible. This is a dataset to be used in a phylogenetic
 #' PCA along with \code{\link{jawtree}}.
 #'
 #' @format A data frame with 48 rows and 34 variables:
@@ -548,7 +548,7 @@
 
 #' Average January temperature for US and European cities
 #'
-#' A somewhat dataset selectively chosen to illustrate Simpson's Paradox.
+#' A dataset somewhat selectively chosen to illustrate Simpson's Paradox.
 #'
 #' @format A data frame (tibble) with 83 rows and 4 variables:
 #' \describe{
@@ -560,3 +560,20 @@
 #' @source I've lost track of the original source - some online almanac
 #' of some sort.
 "citytemps"
+
+#' Subset of Flying Etiquette Survey Data
+#'
+#' This is a subset of data from the results of a SurveyMonkey survey
+#' commissioned by FiveThirtyEight for the story 41 Percent of Fliers
+#' Say It’s Rude To Recline Your Airplane Seat.
+#'
+#' @format A data frame (tibble) with 846 rows and 4 variables:
+#' \describe{
+#'   \item{do_you_recline}{Do you ever recline your seat when you fly?}
+#'   \item{rude_to_recline}{Is it rude to recline your seat on a plane?}
+#'   \item{has_child_under_18}{Do you have any children under 18?}
+#'   \item{rude_to_bring_baby}{In general, is it rude to bring a baby on a plane?}
+#' }
+#' @source Subsetted from the \code{fly} dataset in the \code{ggmosaic} package,
+#' ultimately originating from \url{https://github.com/fivethirtyeight/data/tree/master/flying-etiquette-survey}
+"flyrules"
