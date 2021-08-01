@@ -9,7 +9,7 @@ A data frame (tibble) with 83 rows and 4 variables:
 \describe{
 \item{city}{a string with the city name}
 \item{temperature}{a number with the average daily high temperature in January in degrees C}
-\item{latitute}{a number with the city's latitude in degrees}
+\item{latitude}{a number with the city's latitude in degrees}
 \item{region}{a factor - US or Europe}
 }
 }

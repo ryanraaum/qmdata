@@ -554,7 +554,7 @@
 #' \describe{
 #'   \item{city}{a string with the city name}
 #'   \item{temperature}{a number with the average daily high temperature in January in degrees C}
-#'   \item{latitute}{a number with the city's latitude in degrees}
+#'   \item{latitude}{a number with the city's latitude in degrees}
 #'   \item{region}{a factor - US or Europe}
 #' }
 #' @source I've lost track of the original source - some online almanac
@@ -578,6 +578,12 @@
 #' ultimately originating from \url{https://github.com/fivethirtyeight/data/tree/master/flying-etiquette-survey}
 "flyrules"
 
+
+#' Scissor-tailed Flycatcher (*Tyrannus forficatus*) morphological data
+#'
+#' Various standard morphological measures (mass, wing chord) for
+#' Scissor-tailed Flycatchers.
+#'
 #' @format A data frame (tibble) with 149 rows and 9 variables:
 #' \describe{
 #'   \item{mass}{numeric, body mass in g}
