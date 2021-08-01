@@ -577,3 +577,23 @@
 #' @source Subsetted from the \code{fly} dataset in the \code{ggmosaic} package,
 #' ultimately originating from \url{https://github.com/fivethirtyeight/data/tree/master/flying-etiquette-survey}
 "flyrules"
+
+#' @format A data frame (tibble) with 149 rows and 9 variables:
+#' \describe{
+#'   \item{mass}{numeric, body mass in g}
+#'   \item{tarsus}{numeric, tarsus length in mm}
+#'   \item{wing}{numeric, wing chord in mm}
+#'   \item{notch}{numeric, depth of primary notch}
+#'   \item{tail}{numeric, tail length in mm}
+#'   \item{asym}{numeric, tail asymmetry as the difference between left and right lengths in mm}
+#'   \item{functional}{numeric, functional tail feather length in mm}
+#'   \item{ornament}{numeric, ornamental tail feather length in mm}
+#'   \item{sex}{factor, male or female}
+#' }
+#' @source Roeder, D.V., Husak, M.S., Murphy, M.T. et al. Size,
+#' ornamentation, and flight feather morphology promote within-pair
+#' paternity in a sexually dimorphic passerine. Behav Ecol Sociobiol
+#' 73, 90 (2019). \url{https://doi.org/10.1007/s00265-019-2704-x}
+#' Raw data deposited in Dryad
+#' \url{https://datadryad.org/stash/dataset/doi:10.5061/dryad.2qv284p}
+"flycatchers"
