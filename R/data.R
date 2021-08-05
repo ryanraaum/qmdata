@@ -603,3 +603,59 @@
 #' Raw data deposited in Dryad
 #' \url{https://datadryad.org/stash/dataset/doi:10.5061/dryad.2qv284p}
 "flycatchers"
+
+#' Skeletal indices across species of carnivores
+#'
+#' A set of skeletal indices related to functional outcomes from a study
+#' examining sexual selection in carnivores. See also \code{\link{carnivora_info}}.
+#'
+#' @format A data frame (tibble) with 701 rows and 17 variables:
+#' \describe{
+#'   \item{family}{character, taxonomic family}
+#'   \item{species}{character, binomial species name}
+#'   \item{sex}{factor, female or male}
+#'   \item{geometric_mean}{numeric, body size proxy}
+#'   \item{skull_shape_index}{numeric, "Skull width relative to total length (Skull width/Skull length). Indicates relative ability to generate bite force, given that a wider skull is associated with larger jaw-closing muscles and/or a shorter skull (i.e., shorter snout) increases the mechanical advantage of the jaw-closing muscles"}
+#'   \item{occipital_width_index}{numeric, "Occipital width relative to length of second cervical vertebra (Occipital width/C2 length). Indicates relative size of cervical neck musculature."}
+#'   \item{atlas_width_index}{numeric, "Atlas width relative to length of second cervical vertebra (Atlas width/C2 length). Indicates relative surface area for attachment of cervical neck musculature."}
+#'   \item{scapula_area_index}{numeric, "Surface area of lateral aspect of scapula relative to scapula length ((!Scapula area)/Scapula length). Indicates relative size of muscles involved in the transfer of forces from the trunk to the forelimbs and in stabilizing the shoulder joint."}
+#'   \item{forelimb_proportions_index}{numeric, "Length of proximal forelimb relative to length of distal forelimb ((Scapula length + Humerus length)/(Radius length + Metacarpal length)). Indicates degree of morphological specialization for producing large out-forces in the forelimb."}
+#'   \item{humerus_epicondyle_index}{numeric, "Humerus epicondyle width relative to humerus length (Humerus epicondyle width/Humerus length). Indicates relative surface area for attachment of wrist and digit flexor, extensor, pronator, and supinator muscles."}
+#'   \item{olecranon_mechanical_advantage}{numeric, "Length of olecranon process relative to length of distal forelimb (Olecranon length/(Radius length + Metacarpal length)). Indicates anatomical mechanical advantage of triceps brachii, an elbow extensor."}
+#'   \item{styloid_width_index}{numeric, "Styloid width relative to radius length (Styloid width/Radius length). Indicates relative robusticity of distal forelimb."}
+#'   \item{pisiform_mechanical_advantage}{numeric, "Length of pisiform relative to length of manus (Pisiform length/Metacarpal length). Indicates anatomical mechanical advantage of flexor carpi ulnaris, a wrist flexor."}
+#'   \item{ischium_mechanical_advantage}{numeric, "Length of ischium relative to total hindlimb length (Ischium length/(Femur length + Tibia length + Metatarsal length)). Indicates anatomical mechanical advantage of main hindlimb retractor muscles (e.g., biceps femoris, semimebranosus, semitendinosus)."}
+#'   \item{femur_epicondyle_index}{numeric, "Femur epicondyle width relative to femur length (Femur epicondyle width/Femur length). Indicates relative surface area for attachment of hip extensor, knee flexor, and foot plantarflexor muscles (e.g., semimembranosus, gastrocnemius, extensor digitorum longus)."}
+#'   \item{hindlimb_malleolus_index}{numeric, "Hindlimb malleolus width relative to tibia length (Hindlimb malleolus width/Tibia length). Indicates relative robusticity of distal hindlimb."}
+#'   \item{calcaneus_mechanical_advantage}{numeric, "Length of calcaneal process relative to length of pes (Calcaneus length/Metatarsal length). Indicates anatomical mechanical advantage of ankle extensors (e.g., gastrocnemius)."}
+#' }
+#' @source Morris, J.S. and Carrier, D.R. (2016), Sexual selection on skeletal
+#' shape in Carnivora. Evolution, 70: 767-780.
+#' \url{https://doi.org/10.1111/evo.12904}
+#' Raw data deposited in Dryad \url{https://doi.org/10.5061/dryad.86523}
+"carnivora_indices"
+
+#' Body mass and life history trait infomation for carnivore species
+#'
+#' A set of body mass and life history trait information for carnivores from a study
+#' examining sexual selection in carnivores. See also \code{\link{carnivora_indices}}.
+#'
+#' @format A data frame (tibble) with 26 rows and 11 variables:
+#' \describe{
+#'   \item{family}{character, taxonomic family}
+#'   \item{species}{character, binomial species name}
+#'   \item{mass_male}{numeric, mass in kg}
+#'   \item{mass_female}{numeric, mass in kg}
+#'   \item{mass_mean}{numeric, mass in kg}
+#'   \item{polygyny}{factor, polygynous or non_polygynous}
+#'   \item{parental_care}{factor, female_only or female_with_helpers}
+#'   \item{diet}{factor, carnivorous or non_carnivorous}
+#'   \item{locomotor_zone}{factor, terrestrial or terrestrial_arboreal}
+#'   \item{social_group_size}{factor, solitary or social}
+#'   \item{foraging_group_size}{factor, forage_along or forage_in_groups}
+#' }
+#' @source Morris, J.S. and Carrier, D.R. (2016), Sexual selection on skeletal
+#' shape in Carnivora. Evolution, 70: 767-780.
+#' \url{https://doi.org/10.1111/evo.12904}
+#' Raw data deposited in Dryad \url{https://doi.org/10.5061/dryad.86523}
+"carnivora_info"
