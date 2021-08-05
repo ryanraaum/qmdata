@@ -659,3 +659,24 @@
 #' \url{https://doi.org/10.1111/evo.12904}
 #' Raw data deposited in Dryad \url{https://doi.org/10.5061/dryad.86523}
 "carnivora_info"
+
+#' Phenotypic data for *Phymata* assassin bugs
+#'
+#' Three phenotypic measures for seven species of assassin bugs.
+#'
+#' @format A data frame (tibble) with 972 rows and 8 variables:
+#' \describe{
+#'   \item{sex}{factor, F or M}
+#'   \item{pronotum_width}{numeric, a measure of body size}
+#'   \item{pronotum_darkness}{numeric, mean darkness of a circular patch on the dorsal surface of the pronotum}
+#'   \item{thorax_darkness}{numeric, mean darkness of a circular patch on the lateral surface of the thorax}
+#'   \item{taxon}{character, abbreviation for species/subspecies}
+#'   \item{latitude}{numeric, in degrees}
+#'   \item{longitude}{numeric, in degrees}
+#'   \item{elevation}{numeric, in meters}
+#' }
+#' @source Punzalan, D. and Rowe, L. (2015), Evolution of sexual dimorphism in
+#'  phenotypic covariance structure in *Phymata*. Evolution, 69: 1597-1609
+#' \url{https://doi.org/10.1111/evo.12680}
+#' Raw data deposited in Dryad \url{https://doi.org/10.5061/dryad.0g98k}
+"assassin_bugs"
