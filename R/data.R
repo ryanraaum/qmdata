@@ -680,3 +680,28 @@
 #' \url{https://doi.org/10.1111/evo.12680}
 #' Raw data deposited in Dryad \url{https://doi.org/10.5061/dryad.0g98k}
 "assassin_bugs"
+
+#' Phenotypic data for *Cochlostoma septemspirale* land snails
+#'
+#' Data from a study of sexual dimorphism in land snails.
+#' Useful for PCA and LDA examples.
+#'
+#' @format A data frame (tibble) with 220 rows and 10 variables:
+#' \describe{
+#'   \item{sex}{factor, F or M}
+#'   \item{shell_h}{numeric, shell height in µm}
+#'   \item{shell_w}{numeric, shell width in µm}
+#'   \item{aperture_h}{numeric, aperture height in µm}
+#'   \item{aperture_w}{numeric, aperture width in µm}
+#'   \item{whorl_w}{numeric, whorl width in µm}
+#'   \item{rib_n}{integer, number of ribs on last whorl}
+#'   \item{altitude}{numeric, altitude in meters}
+#'   \item{latitude}{numeric, latitude in degrees}
+#'   \item{longitude}{numeric, longitude in degrees}
+#' }
+#' @source Baur H, Reichenbach F, Neubert E (2012) Sexual dimorphism in
+#' shells of Cochlostoma septemspirale (Caenogastropoda, Cyclophoroidea,
+#' Diplommatinidae, Cochlostomatinae). ZooKeys 208: 1-16.
+#' \url{https://doi.org/10.3897/zookeys.208.2869}
+#' Raw data deposited in Dryad \url{https://doi.org/10.5061/dryad.ns7v7}
+"landsnails"
