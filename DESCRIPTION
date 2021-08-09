@@ -1,6 +1,6 @@
 Package: qmdata
 Title: Datasets for Quantitative Methods for Biological Anthropology Course
-Version: 0.0.0.9003
+Version: 0.0.0.9004
 Authors@R: 
     person(given = "Ryan",
            family = "Raaum",
