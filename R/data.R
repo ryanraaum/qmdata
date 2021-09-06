@@ -589,7 +589,7 @@
 #'   \item{mass}{numeric, body mass in g}
 #'   \item{tarsus}{numeric, tarsus length in mm}
 #'   \item{wing}{numeric, wing chord in mm}
-#'   \item{notch}{numeric, depth of primary notch}
+#'   \item{notch}{numeric, depth of primary notch in mm}
 #'   \item{tail}{numeric, tail length in mm}
 #'   \item{asym}{numeric, tail asymmetry as the difference between left and right lengths in mm}
 #'   \item{functional}{numeric, functional tail feather length in mm}
@@ -705,3 +705,109 @@
 #' \url{https://doi.org/10.3897/zookeys.208.2869}
 #' Raw data deposited in Dryad \url{https://doi.org/10.5061/dryad.ns7v7}
 "landsnails"
+
+#' A subset of Boas' immigrant study data suitable for calculating heritability
+#'
+#' This subset of Boas' immigrant study data includes only adult children
+#' where stature data are available for both parents from what Boas labelled
+#' the "Hebrew" immigrant group sample. Between 1880 and 1924, approximately
+#' 2.5 million Eastern European Ashkenazim immigrated to the United States,
+#' many settling in New York City. Boas' "Hebrew" sample is
+#' undoubtedly primarily of this population.
+#'
+#' This subset is purely for
+#' demonstration purposes - researchers should access the full dataset
+#' freely accessible at the link below.
+#'
+#' @format A data frame with 162 rows and 22 variables:
+#' \describe{
+#'   \item{fam_id2}{character, unique family identifier}
+#'   \item{sex}{factor, "m" or "f"}
+#'   \item{age}{numeric, age in years}
+#'   \item{hd_lng}{numeric, head length in mm}
+#'   \item{hd_wdt}{numeric, maximum head width in mm}
+#'   \item{bizyg}{numeric, bizygomatic breadth in mm}
+#'   \item{stature}{numeric, height in cm}
+#'   \item{cephalic}{numeric, cephalic index}
+#'   \item{wfi}{numeric, facial index}
+#'   \item{usborn}{factor, "foreign-born" or "us-born"}
+#'   \item{m_hd_lng}{numeric, mother's head length in mm}
+#'   \item{m_hd_wdt}{numeric, mother's maximium head width in mm}
+#'   \item{m_bizyg}{numeric, mother's bizygomatic breadth in mm}
+#'   \item{m_stat}{numeric, mother's height in cm}
+#'   \item{m_ceph}{numeric, mother's cephalic index}
+#'   \item{m_wfi}{numeric, mother's facial index}
+#'   \item{f_hd_lng}{numeric, father's head length in mm}
+#'   \item{f_hd_wdt}{numeric, father's maximum head width in mm}
+#'   \item{f_bizyg}{numeric, father's bizygomatic breadth in mm}
+#'   \item{f_stat}{numeric, father's height in cm}
+#'   \item{f_ceph}{numeric, father's cephalic index}
+#'   \item{f_wfi}{numeric, father's facial index}
+#' }
+#' @source Boas, Franz. Changes in Bodily Form of Descendants of Immigrants.
+#' New York: Columbia University Press, 1912.
+#'
+#' Boas, Franz. “Changes in Bodily Form of Descendants of Immigrants.”
+#' Washington, DC: United States Senate, 1910.
+#'
+#' Boas, Franz. “Changes in the Bodily Form of Descendants of Immigrants.”
+#' American Anthropologist 14, no. 3 (1912): 530–562.
+#'
+#' Gravlee, Clarence C., H. Russell Bernard, and William R. Leonard.
+#' “Heredity, Environment, and Cranial Form: A Reanalysis of Boas’s Immigrant
+#' Data.” American Anthropologist 105, no. 1 (March 2003): 125–38.
+#' \url{https://doi.org/10.1525/aa.2003.105.1.125}
+#'
+#' Gravlee, Clarence C., H. Russell Bernard, and William R. Leonard. “Boas’s
+#' Changes in Bodily Form: The Immigrant Study, Cranial Plasticity, and
+#' Boas’s Physical Anthropology.” American Anthropologist 105, no. 2
+#' (June 2003): 326–32.
+#' \url{https://doi.org/10.1525/aa.2003.105.2.326}
+#'
+#' Raw data deposited in openICPSR
+#' \url{https://www.openicpsr.org/openicpsr/project/112086/version/V2/view}
+"boas_h2"
+
+#' A subset of stature data from Boas' immigrant study data
+#'
+#' This subset of Boas' immigrant study data includes all individuals with
+#' data on both age and stature.
+#'
+#' This subset is purely for
+#' demonstration purposes - researchers should access the full dataset
+#' freely accessible at the link below.
+#'
+#' @format A data frame with 12,641 rows and 7 variables:
+#' \describe{
+#'   \item{id}{numeric, unique identifier}
+#'   \item{immgroup}{factor, one of "sicilian", "central_italian", "bohemian",
+#'  "hungarian_slovak", "polish", "scotch", or "hebrew"}
+#'   \item{sex}{factor, "m" or "f"}
+#'   \item{imm_yr}{numeric, immigration year; US-born individuals are coded -999}
+#'   \item{age}{numeric, age in years}
+#'   \item{stature}{numeric, height in cm}
+#'   \item{usborn}{factor, "foreign-born" or "us-born"}
+#' }
+#' @source Boas, Franz. Changes in Bodily Form of Descendants of Immigrants.
+#' New York: Columbia University Press, 1912.
+#'
+#' Boas, Franz. “Changes in Bodily Form of Descendants of Immigrants.”
+#' Washington, DC: United States Senate, 1910.
+#'
+#' Boas, Franz. “Changes in the Bodily Form of Descendants of Immigrants.”
+#' American Anthropologist 14, no. 3 (1912): 530–562.
+#'
+#' Gravlee, Clarence C., H. Russell Bernard, and William R. Leonard.
+#' “Heredity, Environment, and Cranial Form: A Reanalysis of Boas’s Immigrant
+#' Data.” American Anthropologist 105, no. 1 (March 2003): 125–38.
+#' \url{https://doi.org/10.1525/aa.2003.105.1.125}
+#'
+#' Gravlee, Clarence C., H. Russell Bernard, and William R. Leonard. “Boas’s
+#' Changes in Bodily Form: The Immigrant Study, Cranial Plasticity, and
+#' Boas’s Physical Anthropology.” American Anthropologist 105, no. 2
+#' (June 2003): 326–32.
+#' \url{https://doi.org/10.1525/aa.2003.105.2.326}
+#'
+#' Raw data deposited in openICPSR
+#' \url{https://www.openicpsr.org/openicpsr/project/112086/version/V2/view}
+"boas_stature"

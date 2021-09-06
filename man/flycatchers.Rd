@@ -10,7 +10,7 @@ A data frame (tibble) with 149 rows and 9 variables:
 \item{mass}{numeric, body mass in g}
 \item{tarsus}{numeric, tarsus length in mm}
 \item{wing}{numeric, wing chord in mm}
-\item{notch}{numeric, depth of primary notch}
+\item{notch}{numeric, depth of primary notch in mm}
 \item{tail}{numeric, tail length in mm}
 \item{asym}{numeric, tail asymmetry as the difference between left and right lengths in mm}
 \item{functional}{numeric, functional tail feather length in mm}
